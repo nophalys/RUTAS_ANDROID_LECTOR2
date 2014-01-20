@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HelloGridView!</string>
+    <string name="app_name">Rutas Inftel</string>
+    <string name="BotVolver">Volver</string>
+    <string name="textActivity2">Me muevo entre activities</string>
+    
+    <string name="fecha">Fecha:</string>
+<string name="hora">Hora:</string>
+<string name="porFecha">Busqueda</string>
+<string name="porCalle">Por Calle</string>
+<string name="minuto">:</string>
+
+
+<string name="BotVolver1">Volver</string>
+
+<string name="volver">Volver</string>
+<string name="Salir">Salir</string>
+
+
+	<string name="botonMalaga">Málaga</string>
+	<string name="botonAlmeria">Almería</string>
+	<string name="botonConsulta">Consulta</string>
+	<string name="textoConsulta">¿Que quieres buscar?</string>
+	<color name="colorTexto">#FF0000</color>
+	
+	
+	
+	
+	<string name="ExaminarFile">Examinar</string>
+<string name="nombreFile">Fichero:</string>
+
+
+<string name="botonInfo">Informacion</string>
+
+
+<string name="seleccionRuta">Selecciona un archivo de ruta:</string>
+
+	<string name="raiz">Volver al inicio</string>
+	<string name="sin_archivos">El directorio seleccionado no contiene archivos
+	</string>
+    
+</resources>

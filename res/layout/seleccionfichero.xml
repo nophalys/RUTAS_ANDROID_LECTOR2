@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10px"
+    > 
+    
+    <TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/seleccionRuta"
+    android:paddingTop="100px"
+    android:paddingLeft="30px"
+    />
+    
+    </LinearLayout>
+    
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="60px"
+    > 
+<TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/nombreFile"
+    android:paddingTop="100px"
+    android:paddingLeft="30px"
+    />
+<!--    <EditText -->
+<!--    android:id="@+id/textoFile"  -->
+<!--    android:layout_width="wrap_content" -->
+<!--    android:layout_height="wrap_content" -->
+<!--    android:paddingTop="5px"-->
+<!--    android:paddingLeft="5px"-->
+<!--    android:maxWidth="60px"-->
+<!--    android:minWidth="150px"-->
+<!--    -->
+<!--    />-->
+    <Button 
+		android:text="@string/ExaminarFile" 
+		android:id="@+id/examinar" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"/>
+	
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="200px"
+     android:paddingLeft="30px" android:gravity="bottom"> 
+<!--<TextView -->
+<!--   android:id="@+id/error"-->
+<!--    android:layout_width="wrap_content" -->
+<!--    android:layout_height="wrap_content"-->
+<!--     />-->
+    
+ <Button 
+ android:text="@string/Salir" 
+ android:id="@+id/BotonSalir" 
+ android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="240px">
+ </Button>
+ 
+</LinearLayout>
+ 
+</RelativeLayout>

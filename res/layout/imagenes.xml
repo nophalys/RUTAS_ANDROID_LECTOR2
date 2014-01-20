@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:gravity="top"
+   
+    >   
+    
+<GridView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/gridview"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:columnWidth="150dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="5dp"
+    android:horizontalSpacing="5dp"
+    android:stretchMode="columnWidth"
+    
+   
+
+/>
+
+</LinearLayout>
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:gravity="bottom" 
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent" 
+    android:layout_marginTop="200px" 
+    android:layout_marginLeft="250px">   
+
+
+<Button
+android:text="@string/BotVolver1" 
+android:id="@+id/BotVolver1" 
+android:layout_gravity="bottom" 
+android:layout_height="wrap_content" 
+android:layout_width="fill_parent"/>
+
+
+</LinearLayout>
+
+
+
+</RelativeLayout>

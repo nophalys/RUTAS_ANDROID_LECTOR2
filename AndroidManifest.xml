@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="es.android.rutas"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application  android:icon="@drawable/icon" android:label="@string/app_name">
+    	
+    	 
+    
+    
+              <activity android:name=".SeleccionRuta"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    
+    
+    
+        <activity android:name=".SeleccionImagenes"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        
+         <activity android:name=".MapaFecha"
+                  android:label="@string/app_name">
+                    <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+                 
+    
+        </activity>
+        
+        
+        
+               <activity android:name=".SeleccionFichero"
+                  android:label="@string/app_name">
+                    <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+                 
+    
+        </activity>
+
+
+
+	<activity android:name=".PantallaInfo" android:label="@string/app_name">
+		<intent-filter>
+			<action android:name="android.intent.action.MAIN" />
+			<category android:name="android.intent.category.DEFAULT" />
+		</intent-filter>
+
+
+	</activity>
+        
+        
+    	<activity android:name=".Examinar" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+        
+        
+        
+        
+       <uses-library android:name="com.google.android.maps" />
+
+    </application>
+    
+    
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+</manifest> 

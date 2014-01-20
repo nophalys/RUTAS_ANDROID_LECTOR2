@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    
+    <com.google.android.maps.MapView 
+        android:id="@+id/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:enabled="true"
+        android:clickable="true"
+        android:apiKey="0k2Qb_Jxljj5r-Si7moGUWUhqMFEkSMen5GuBMA"
+        />
+	  
+<!--	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    	android:orientation="horizontal"-->
+<!--    	android:layout_width="fill_parent"-->
+<!--    	android:layout_height="fill_parent"-->
+<!--    	>  -->
+<!--    	-->
+<!--		<TextView android:id="@+id/textoConsulta"-->
+<!--			android:layout_width="wrap_content"-->
+<!--			android:layout_height="wrap_content"-->
+<!--			android:text="@string/textoConsulta"-->
+<!--			android:textColor="@color/colorTexto"-->
+<!--			/>-->
+<!--		<EditText android:id="@+id/textoEntradaConsulta"-->
+<!--			android:layout_width="wrap_content"-->
+<!--			android:maxWidth="100sp"-->
+<!--			android:minWidth="100sp"-->
+<!--			android:minHeight="30sp"-->
+<!--			android:maxHeight="30px"-->
+<!--			android:layout_height="wrap_content"-->
+<!--			/>-->
+<!--		-->
+<!--	</LinearLayout>-->
+	
+<!--	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--		android:gravity="right"-->
+<!--    	android:layout_width="fill_parent"-->
+<!--    	android:layout_height="fill_parent"-->
+<!--    	> -->
+<!--    	-->
+<!--		<Button android:id="@+id/botonConsulta"-->
+<!--			android:layout_width="wrap_content"-->
+<!--			android:layout_height="wrap_content"-->
+<!--			android:text="@string/botonConsulta"-->
+<!--			/>	-->
+<!--			-->
+<!--	</LinearLayout>-->
+	
+ 	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 		android:gravity="bottom"
+ 		android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	>
+<!--    	<TextView android:id="@+id/textoRespuesta"-->
+<!--    		android:layout_width="wrap_content"-->
+<!--			android:layout_height="wrap_content"-->
+<!--			android:textColor="@color/colorTexto"-->
+<!--			/>-->
+			
+			
+					<Button android:id="@+id/botonInfo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/botonInfo" 
+			
+			/>
+			
+			
+			
+			
+			<Button android:id="@+id/botonVolverMapa"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/BotVolver1" android:layout_marginLeft="150px"/>
+    </LinearLayout>
+    
+    
+    
+<!--    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--		android:gravity="center"-->
+<!--    	android:orientation="vertical"-->
+<!--    	android:layout_width="wrap_content"-->
+<!--    	android:layout_height="fill_parent"-->
+<!--    	>-->
+<!--    		<ImageView-->
+<!--				android:id="@+id/imagen1"-->
+<!--				android:layout_width="wrap_content"-->
+<!--				android:layout_height="wrap_content"-->
+<!--				/>	-->
+<!--	</LinearLayout>-->
+ 
+</RelativeLayout>
+
